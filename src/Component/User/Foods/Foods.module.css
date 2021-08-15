@@ -1,0 +1,17 @@
+.container{
+    background-color: white;
+    box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6);
+    padding-bottom:30px;
+    padding-top: 10px;
+    width: 900px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+@media(max-width:480px){
+    .container{
+        width: 390px;
+    }
+}

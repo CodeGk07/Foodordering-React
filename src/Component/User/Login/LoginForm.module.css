@@ -1,0 +1,177 @@
+.container {
+    position: fixed;
+    top: 20vh;
+    width: 700px;
+    left: 25%;
+    background-color: white;
+    padding: 1rem;
+    border-radius: 14px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+    z-index: 30;
+    
+  }
+
+.container:hover{
+    padding-top:1px;
+}
+
+.header{
+    margin-left: 200px;
+    font-family: fantasy;
+    color:skyblue;
+   font-size: 30px;
+}
+
+.elabel{
+    margin-left: 30px;
+    margin-right: 80px;
+    font-family: cursive;
+    margin-top: 10px;
+}
+
+.plabel{
+    margin-left: 30px;
+    margin-right: 80px;
+    font-family: cursive;
+    margin-top: 15px;
+}
+
+.einput{
+    margin-left: 62px;
+    width: 250px;
+    height: 30px;
+    border-radius: 5px;
+    margin-top: 10px;
+    box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6);
+    
+}
+.pinput{
+    margin-left: 33px;
+    width: 250px;
+    height: 30px;
+    border-radius: 5px;
+    margin-top: 15px;
+    box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6);
+}
+
+.login{
+    padding: 5px;
+    margin-left: 230px;
+    margin-top: 25px;
+    width: 80px;
+    height: 40px;
+    border-radius:5px;
+    background-color: dodgerblue;
+    color:white;
+    box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6);
+    cursor: pointer;
+}
+
+.login:hover{
+    background-color: green;
+}
+
+.signin{
+    padding: 5px;
+    margin-left: 20px;
+    margin-top: 25px;
+    width: 80px;
+    height: 40px;
+    border-radius:5px;
+    background-color:dodgerblue;
+    color: white;
+    box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6);
+    cursor: pointer;
+}
+
+.signin:hover{
+    background-color: maroon;
+}
+
+.ccon{
+    margin-top: 20px;
+    margin-left: 220px;
+
+}
+
+.acccount{
+    text-decoration: none;
+    color: mediumseagreen;
+    
+}
+
+.valid{
+    border-color: red;
+   background-color: rgb(236, 195, 195);
+}
+
+button:disabled,
+button:hover:disabled,
+button:active:disabled,
+button:focus:disabled{
+    background: #ccc;
+    border-color: #ccc;
+    color: #666666;
+    cursor: not-allowed;
+}
+
+
+@media(max-width:480px){
+    .container{
+        width: 300px;
+        height: 450px;
+        left: 10%;
+        padding: 10px;
+    }
+   
+    .header{
+        margin-left: 30px;
+       font-size: 30px;
+    }
+    
+    .elabel{
+        margin-left: 50px;
+        margin-right: 80px;
+        margin-top: 10px;
+    }
+    
+    .plabel{
+        margin-left: 50px;
+        margin-right: 80px;
+        margin-top: 10px;
+    }
+    
+    .einput{
+        margin-left: 62px;
+        width: 150px;
+        height: 30px;
+        margin-top: 10px;
+        margin-bottom: 50px;
+        
+    }
+    .pinput{
+        margin-left: 62px;
+        width: 150px;
+        height: 30px;
+        margin-top: 15px;
+    }
+    
+    .login{
+        padding: 5px;
+        margin-left: 50px;
+        margin-top: 25px;
+    }
+    
+    
+    .signin{
+        padding: 5px;
+        margin-left: 10px;
+        margin-top: 25px;
+    }
+    .ccon{
+        margin-top: 40px;
+        margin-left: 50px;
+    
+    }
+    
+}

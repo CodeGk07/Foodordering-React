@@ -1,0 +1,148 @@
+.container{
+    background-color:white;
+    padding: 2px;
+    width: 1366px; 
+
+}
+
+.navitem{
+    display: flex;
+}
+
+.header{
+    font-family:fantasy;
+    font-size: 20px;
+    color:skyblue ;
+    margin-left: 300px;
+}
+
+.con{
+    margin-left: 350px;
+}
+
+.input{
+    margin-right: 10px;
+    width: 250px;
+    height: 30px;
+    box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6);
+}
+.input:hover{
+    padding-top: 5px;
+}
+
+.login{
+    margin-left: 5px;
+    margin-right: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: teal;
+    color: white;
+    cursor: pointer;
+    width: 80px;
+    height: 40px;  
+    box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6);
+}
+
+.login:hover{
+    background-color:green;
+}
+
+.logout{
+    margin-left: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: teal;
+    color: white;
+    cursor: pointer;
+    width: 80px;
+    height: 40px; 
+    box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6);
+}
+
+.logout:hover{
+  background-color:maroon;
+ 
+}
+
+.sbtn{
+    position: relative;
+    right: 290px;
+    width: 30px;
+    height: 30px;
+    box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6);
+    cursor: pointer;
+    opacity: hidden;
+    overflow: hidden; 
+    opacity: 0.3;
+}
+.img{
+    width: 1350px;
+    height: 400px;
+}
+
+
+
+@media(max-width:480px){
+    .container{
+        padding: 2px;
+        width: 390px;
+
+    }
+
+    .navitem{
+        height: 60px;
+    }
+    .header{
+        margin-left: 10px;
+        font-size: 10px;
+    }
+
+    .con{
+        margin-left: 50px;
+    }
+    
+    .input{
+        margin-left: 30px;
+        width: 150px;
+        height: 20px;
+        box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6);
+    }
+    
+    .login{
+        position: absolute;
+        top: 60px;
+        right: 140px;
+        margin-left: 2px;
+        margin-right: 4px;
+        padding: 4px;
+        border-radius: 5px;
+        width: 40px;
+        height: 20px;
+        font-size: 8px; 
+    }
+    
+    .logout{
+        position: absolute;
+        top: 60px;
+        right: 100px;
+        margin-left: 2px;
+        padding: 4px;
+        border-radius: 5px;
+        width: 40px;
+        height: 20px;
+        font-size: 8px; 
+    }
+    
+    .sbtn{
+        position: relative;
+        top: 0;
+        right: 190px;
+        width: 30px;
+        height: 20px;
+    }
+
+    .img{
+        width: 390px;
+        height: 300px;
+    }
+}

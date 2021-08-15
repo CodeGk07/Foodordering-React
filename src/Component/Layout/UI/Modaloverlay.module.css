@@ -1,0 +1,94 @@
+.container {
+    position: fixed;
+    top: 20vh;
+    width: 800px;
+    left: 20%;
+    background-color: white;
+    padding: 1rem;
+    border-radius: 14px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+    z-index: 30;
+    
+  }
+
+.name{
+    padding: 5px;
+    font-family: cursive;
+    font-size: 30px;
+    margin-left: 20px;
+}
+
+.amount{
+    font-family: cursive;
+   
+}
+
+.price{
+    font-family: cursive;
+    margin-left: 40px;
+    color: brown;
+    
+}
+
+.order{
+    width: 80px;
+    height: 30px;
+    border-radius: 5px;
+    color: white;
+    background-color: tomato;
+    margin-left: 550px;
+    cursor: pointer;
+}
+
+.order:hover{
+    background-color: springgreen;
+}
+.cancel{
+    width: 80px;
+    height: 30px;
+    border-radius: 5px;
+    color: white;
+    background-color: tomato;
+    margin-left: 25px;
+    cursor: pointer;
+}
+.cancel:hover{
+    background-color: red;
+}
+
+
+
+@media(max-width:480px){
+    .container{
+        height: 150px;
+        width: 350px;
+        left: 10px;
+    }
+
+    .name{
+        font-size: 15px;
+    }
+    
+    .amount{
+        font-size: 15px;
+       
+    }
+    
+    .price{
+        position: absolute;
+        margin-left: 10px;
+    }
+
+    .order{
+        width: 80px;
+        height: 30px;
+        margin-left: 50px;
+    }
+
+    .cancel{
+        width: 80px;
+        height: 30px;
+        position: absolute;
+        top: 120px;
+    }
+}

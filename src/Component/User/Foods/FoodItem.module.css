@@ -1,0 +1,92 @@
+.container{
+    background-color: rgb(243, 235, 235);
+    box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6);
+    width: 800px;
+    height: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+  
+}
+
+.name{
+    padding-top: 15px;
+    padding-left: 15px;
+    font-family: cursive;
+    font-size: 25px;
+}
+
+.desc{
+    padding-left: 15px;
+    font-family: cursive;
+    font-size: 15px;
+}
+
+.price{
+    padding-left: 15px;
+    font-family: cursive;
+    font-size: 20px;
+    padding-bottom: 5px;
+    color: brown;
+}
+
+.input{
+    width: 40px;
+    position: relative;
+    top: -100px;
+    right: -680px;
+   border-radius: 5px;
+}
+
+.button{
+    position: relative;
+    top: -70px;
+    right: -580px;
+    width: 100px;
+    height: 30px;
+    border-radius: 15px;
+    background-color: brown;
+    color: white;
+    cursor: pointer;
+    padding:5px;
+}
+
+.amount{
+    position: relative;
+    top: -100px;
+    right: -670px;
+    font: bold;
+}
+
+@media(max-width:480px){
+    .container{
+
+        width: 350px;
+        height: 150px;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 10px;
+      
+    }
+
+    .input{
+        position: relative;
+        top: -100px;
+        right: -245px;
+    
+    }
+    
+    .button{
+        position: relative;
+        top: -70px;
+        right: -145px;
+      
+    }
+    
+    .amount{
+        position: relative;
+        top: -100px;
+        right: -235px;
+        
+    }
+}
